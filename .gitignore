@@ -1,0 +1,52 @@
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
+
+# Logs e saída de compilação
+*.log
+*.out
+
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios gerados automaticamente
+/target/
+/dist/
+/out/
+
+# Configurações específicas de IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Dependências e diretórios específicos de linguagens
+/node_modules/
+/vendor/
+/.venv/
+
+# Arquivos específicos de banco de dados
+*.sql
+
+# Arquivos de configuração
+/application.properties
+/application.yml
+/application-dev.properties
+/application-prod.properties
+
+# Arquivos de logs do PostgreSQL
+/pg_log/
+/postmaster.pid
+/postmaster.opts
+
+# Arquivos específicos do Maven
+.mvn/
+mvnw
+mvnw.cmd
